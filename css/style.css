@@ -4,3 +4,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Style */
+.box {
+    min-height: 50px;
+    border: 2px solid white;
+    background-color: #2596be;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    padding: 10px;
+}
+
+.nasted {
+    height: 60px;
+    border: 2px solid #2596be;
+    text-align: center;
+    line-height: 60px;
+    background-color: yellowgreen;
+}
