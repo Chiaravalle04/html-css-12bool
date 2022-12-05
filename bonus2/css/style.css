@@ -1,0 +1,101 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font */
+* {
+    font-family: 'Bungee Shade', sans-serif;
+}
+
+/* Regole Generali */
+.container {
+    width: 1000px;
+    height: 710px;
+    border: 25px solid brown;
+    background-color: #000;
+    border-radius: 30px;
+}
+
+/* Style */
+body {
+    height: 100vh;
+    background-color: #6495ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.box {
+    height: 20px;
+    background-color: #000;
+}
+
+.box-white {
+    height: 30px;
+    background-color: #fff;
+}
+
+.nested {
+    height: 100%;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.no-border {
+    border: 0;
+}
+
+.b-radius {
+    border-radius: 50%;
+}
+
+.title {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.title, .title-2 span {
+    font-size: 40px;
+    color: #fff;
+}
+
+.title-2 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.jc-space-b {
+    justify-content: space-between;
+}
+
+.jc-space-a {
+    justify-content: space-around;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+
