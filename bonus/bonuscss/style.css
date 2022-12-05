@@ -1,0 +1,92 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container-full */
+.container-full {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style */
+.box {
+    min-height: 50px;
+    border: 2px solid white;
+    background-color: #2596be;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    padding: 10px;
+}
+
+.big-box {
+    height: 90px;
+    background-color: #2596be;
+    border: 2px solid white;
+}
+
+.small-box {
+    width: 100%;
+    height: 45px;
+    background-color: #2596be;
+    border: 2px solid white;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+.nasted {
+    height: 60px;
+    border: 2px solid #2596be;
+    text-align: center;
+    line-height: 60px;
+    background-color: yellowgreen;
+}
+
+.height {
+    height: 100%;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+/* Justify-Content */
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+/* Align-Items */
+.ai-top {
+    align-items: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-bottom {
+    align-items: flex-end;
+}
+
+/* JC Space Around */
+.jc-space-around {
+    justify-content: space-around;
+}
+
+/* JC Space Between */
+.jc-space-between {
+    justify-content: space-between;
+}
